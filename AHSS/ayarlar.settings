@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AHSS" GeneratedClassName="ayarlar">
+  <Profiles />
+  <Settings>
+    <Setting Name="islemNumarasi" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="islemGunu" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">05/13/2019 16:15:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
