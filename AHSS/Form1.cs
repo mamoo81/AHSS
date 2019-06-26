@@ -839,8 +839,8 @@ namespace AHSS
                 DialogResult cevap = MessageBox.Show("SEÇİLİ SATIR SİLİNECEK", "DİKKAT", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
                 if (cevap == DialogResult.OK)
                 {
-                    satinAlinacakUrunler.RemoveAt(UrunlerDataGridView.CurrentCell.RowIndex);
-                    UrunlerDataGridView.Rows.RemoveAt(UrunlerDataGridView.CurrentCell.RowIndex);
+                    satinAlinacakUrunler.RemoveAt(UrunlerDataGridView.SelectedRows[0].Index);
+                    UrunlerDataGridView.Rows.RemoveAt(UrunlerDataGridView.SelectedRows[0].Index);
                     Toplamlar();
                     SatisButonlariAktifPasif();
                 }
