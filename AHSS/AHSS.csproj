@@ -201,5 +201,9 @@
   <ItemGroup>
     <Content Include="barcode.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ayarlar\" />
+    <Folder Include="Veritabanı\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
