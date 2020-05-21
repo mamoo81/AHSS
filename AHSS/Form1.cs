@@ -73,8 +73,15 @@ namespace AHSS
             }
             if (e.KeyCode == Keys.Enter)// barkodun okunup entere basıldıktan sonra işlemlerin başladığı yer.
             {
-                BarkodaBak(BarkodTextBox.Text);
-                e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
+                if (BarkodTextBox.Text != string.Empty)
+                {
+                    BarkodaBak(BarkodTextBox.Text);
+                    e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
+                }
+                else
+                {
+                    NakitSatisButton.PerformClick();
+                }
             }
             else if (e.KeyCode == Keys.F1)
             {
