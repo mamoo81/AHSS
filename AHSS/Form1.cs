@@ -80,7 +80,19 @@ namespace AHSS
                 }
                 else
                 {
-                    NakitSatisButton.PerformClick();
+                    e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
+                    //NakitSatisButton.PerformClick();
+                    //NakitSatisYap();
+                    NAKİT_SATİS_FORM.toplamTutar = float.Parse(ToplamFiyatTextBox.Text);
+                    NAKİT_SATİS_FORM.urunler = satinAlinacakUrunler;
+                    NAKİT_SATİS_FORM.ShowDialog();
+                    if (NAKİT_SATİS_FORM.odemeAlindimi)// nakit satis formunda ödeme alındı ise 
+                    {
+                        // nakit satıs formunda ödeme alındı ise alanları temizliyorum.
+                        AlanlariTemizle();// alanları temizleyip barkodtextboxuna focus yapıyor.
+                        IslemNumarasiLabel.Text = IslemNumarasiniGetir().ToString();
+                    }
+                    BarkodTextBox.Focus();
                 }
             }
             else if (e.KeyCode == Keys.F1)
@@ -130,7 +142,6 @@ namespace AHSS
             }
             else if (e.KeyCode == Keys.Add)
             {
-                
                 BarkodTextBox.Clear();
                 BarkodTextBox.Focus();
                 if (UrunlerDataGridView.SelectedRows[0].Cells[3].Value.ToString() == "ADET")
@@ -340,7 +351,7 @@ namespace AHSS
             SatisButonlariAktifPasif();// başlangıçta satış butonlarını aktif pasif ayarlamak için.
             HizliUrunleriGetir();
             IslemNumarasiLabel.Text = IslemNumarasiniGetir().ToString();
-
+            //BarkodTextBox.Multiline = true; //bunu entere basınca "bling" sesini yapmasın diye yaptım. çalıştı ama tam istediğim gibi olmadı.
             backgroundWorker1.DoWork += BackgroundWorker1_DoWork;
             backgroundWorker1.ProgressChanged += BackgroundWorker1_ProgressChanged;
 
@@ -402,6 +413,22 @@ namespace AHSS
         }
 
         private void NakitSatisButton_Click(object sender, EventArgs e)
+        {
+            //e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
+            //NAKİT_SATİS_FORM.toplamTutar = float.Parse(ToplamFiyatTextBox.Text);
+            //NAKİT_SATİS_FORM.urunler = satinAlinacakUrunler;
+            //NAKİT_SATİS_FORM.ShowDialog();
+            //if (NAKİT_SATİS_FORM.odemeAlindimi)// nakit satis formunda ödeme alındı ise 
+            //{
+            //    // nakit satıs formunda ödeme alındı ise alanları temizliyorum.
+            //    AlanlariTemizle();// alanları temizleyip barkodtextboxuna focus yapıyor.
+            //    IslemNumarasiLabel.Text = IslemNumarasiniGetir().ToString();
+            //}
+            //BarkodTextBox.Focus();
+            NakitSatisYap();
+        }
+
+        public void NakitSatisYap()
         {
             NAKİT_SATİS_FORM.toplamTutar = float.Parse(ToplamFiyatTextBox.Text);
             NAKİT_SATİS_FORM.urunler = satinAlinacakUrunler;
@@ -665,6 +692,86 @@ namespace AHSS
                         hizli_button20.Text = urun.Adi;
                         hizli_button20.Tag = urun.BarkodNumarasi;
                         break;
+                    case 20:
+                        hizli_button21.Text = urun.Adi;
+                        hizli_button21.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 21:
+                        hizli_button22.Text = urun.Adi;
+                        hizli_button22.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 22:
+                        hizli_button23.Text = urun.Adi;
+                        hizli_button23.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 23:
+                        hizli_button24.Text = urun.Adi;
+                        hizli_button24.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 24:
+                        hizli_button25.Text = urun.Adi;
+                        hizli_button25.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 25:
+                        hizli_button26.Text = urun.Adi;
+                        hizli_button26.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 26:
+                        hizli_button27.Text = urun.Adi;
+                        hizli_button27.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 27:
+                        hizli_button28.Text = urun.Adi;
+                        hizli_button28.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 28:
+                        hizli_button29.Text = urun.Adi;
+                        hizli_button29.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 29:
+                        hizli_button30.Text = urun.Adi;
+                        hizli_button30.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 30:
+                        hizli_button31.Text = urun.Adi;
+                        hizli_button31.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 31:
+                        hizli_button32.Text = urun.Adi;
+                        hizli_button32.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 32:
+                        hizli_button33.Text = urun.Adi;
+                        hizli_button33.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 33:
+                        hizli_button34.Text = urun.Adi;
+                        hizli_button34.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 34:
+                        hizli_button35.Text = urun.Adi;
+                        hizli_button35.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 35:
+                        hizli_button36.Text = urun.Adi;
+                        hizli_button36.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 36:
+                        hizli_button37.Text = urun.Adi;
+                        hizli_button37.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 37:
+                        hizli_button38.Text = urun.Adi;
+                        hizli_button38.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 38:
+                        hizli_button39.Text = urun.Adi;
+                        hizli_button39.Tag = urun.BarkodNumarasi;
+                        break;
+                    case 39:
+                        hizli_button40.Text = urun.Adi;
+                        hizli_button40.Tag = urun.BarkodNumarasi;
+                        break;
                 }
                 sayac++;
             }
@@ -834,6 +941,167 @@ namespace AHSS
                 BarkodaBak((string)hizli_button20.Tag);
             }
         }
+
+        private void Hizli_button21_Click(object sender, EventArgs e)
+        {
+            if (hizli_button21.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button21.Tag);
+            }
+        }
+
+        private void Hizli_button22_Click(object sender, EventArgs e)
+        {
+            if (hizli_button22.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button22.Tag);
+            }
+        }
+
+        private void Hizli_button23_Click(object sender, EventArgs e)
+        {
+            if (hizli_button23.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button23.Tag);
+            }
+        }
+
+        private void Hizli_button24_Click(object sender, EventArgs e)
+        {
+            if (hizli_button24.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button24.Tag);
+            }
+        }
+
+        private void Hizli_button25_Click(object sender, EventArgs e)
+        {
+            if (hizli_button25.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button25.Tag);
+            }
+        }
+
+        private void Hizli_button26_Click(object sender, EventArgs e)
+        {
+            if (hizli_button26.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button26.Tag);
+            }
+        }
+
+        private void Hizli_button27_Click(object sender, EventArgs e)
+        {
+            if (hizli_button27.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button27.Tag);
+            }
+        }
+
+        private void Hizli_button28_Click(object sender, EventArgs e)
+        {
+            if (hizli_button28.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button28.Tag);
+            }
+        }
+
+        private void Hizli_button29_Click(object sender, EventArgs e)
+        {
+            if (hizli_button29.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button29.Tag);
+            }
+        }
+
+        private void Hizli_button30_Click(object sender, EventArgs e)
+        {
+            if (hizli_button30.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button30.Tag);
+            }
+        }
+
+        private void Hizli_button31_Click(object sender, EventArgs e)
+        {
+            if (hizli_button31.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button31.Tag);
+            }
+        }
+
+        private void Hizli_button32_Click(object sender, EventArgs e)
+        {
+            if (hizli_button32.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button32.Tag);
+            }
+        }
+
+        private void Hizli_button33_Click(object sender, EventArgs e)
+        {
+            if (hizli_button33.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button33.Tag);
+            }
+        }
+
+        private void Hizli_button34_Click(object sender, EventArgs e)
+        {
+            if (hizli_button34.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button34.Tag);
+            }
+        }
+
+        private void Hizli_button35_Click(object sender, EventArgs e)
+        {
+            if (hizli_button35.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button35.Tag);
+            }
+        }
+
+        private void Hizli_button36_Click(object sender, EventArgs e)
+        {
+            if (hizli_button36.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button36.Tag);
+            }
+        }
+
+        private void Hizli_button37_Click(object sender, EventArgs e)
+        {
+            if (hizli_button37.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button37.Tag);
+            }
+        }
+
+        private void Hizli_button38_Click(object sender, EventArgs e)
+        {
+            if (hizli_button38.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button38.Tag);
+            }
+        }
+
+        private void Hizli_button39_Click(object sender, EventArgs e)
+        {
+            if (hizli_button39.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button39.Tag);
+            }
+        }
+
+        private void Hizli_button40_Click(object sender, EventArgs e)
+        {
+            if (hizli_button40.Tag.ToString() != string.Empty)
+            {
+                BarkodaBak((string)hizli_button40.Tag);
+            }
+        }
+
 
         #endregion
         #endregion

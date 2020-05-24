@@ -215,13 +215,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="barcode.ico" />
-    <Content Include="Veritabanı\AHSS_database.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Veritabanı\AHSS_database_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>AHSS_database.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ayarlar\" />

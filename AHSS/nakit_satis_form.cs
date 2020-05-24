@@ -26,8 +26,8 @@ namespace AHSS
         public List<SATIN_ALINACAK_URUN> urunler = new List<SATIN_ALINACAK_URUN>();
         SqlCommand komut;
         SqlDataReader stokKarti;
-        //SqlConnection baglanti = new SqlConnection("Data Source=localhost;Initial Catalog=AHSS_database;Integrated Security=True");// bu benim pc için.
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-RPV5FRQ\\SQLEXPRESS;Initial Catalog=AHSS_database;Integrated Security=True");// bu yılmaz abinin için
+        SqlConnection baglanti = new SqlConnection("Data Source=localhost;Initial Catalog=AHSS_database;Integrated Security=True");// bu benim pc için.
+        //SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-RPV5FRQ\\SQLEXPRESS;Initial Catalog=AHSS_database;Integrated Security=True");// bu yılmaz abinin için
         private void Nakit_satis_form_Load(object sender, EventArgs e)
         {
             ToplamLabel.Text = string.Format("{0:C}", toplamTutar);
@@ -88,6 +88,7 @@ namespace AHSS
         #region KeyDown Olayları
         private void Nakit_satis_form_KeyDown(object sender, KeyEventArgs e)
         {
+            e.SuppressKeyPress = true;
             if (e.KeyCode == Keys.Delete)
             {
                 odenenPara = 0;

@@ -87,6 +87,26 @@
             this.NakitSatisButton = new System.Windows.Forms.Button();
             this.ToplamFiyatTextBox = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.hizli_button40 = new System.Windows.Forms.Button();
+            this.hizli_button38 = new System.Windows.Forms.Button();
+            this.hizli_button36 = new System.Windows.Forms.Button();
+            this.hizli_button34 = new System.Windows.Forms.Button();
+            this.hizli_button32 = new System.Windows.Forms.Button();
+            this.hizli_button28 = new System.Windows.Forms.Button();
+            this.hizli_button24 = new System.Windows.Forms.Button();
+            this.hizli_button39 = new System.Windows.Forms.Button();
+            this.hizli_button37 = new System.Windows.Forms.Button();
+            this.hizli_button35 = new System.Windows.Forms.Button();
+            this.hizli_button33 = new System.Windows.Forms.Button();
+            this.hizli_button31 = new System.Windows.Forms.Button();
+            this.hizli_button27 = new System.Windows.Forms.Button();
+            this.hizli_button23 = new System.Windows.Forms.Button();
+            this.hizli_button30 = new System.Windows.Forms.Button();
+            this.hizli_button26 = new System.Windows.Forms.Button();
+            this.hizli_button22 = new System.Windows.Forms.Button();
+            this.hizli_button29 = new System.Windows.Forms.Button();
+            this.hizli_button25 = new System.Windows.Forms.Button();
+            this.hizli_button21 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UrunlerDataGridView)).BeginInit();
@@ -94,6 +114,7 @@
             this.groupBox4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -581,6 +602,26 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.hizli_button40);
+            this.tabPage2.Controls.Add(this.hizli_button38);
+            this.tabPage2.Controls.Add(this.hizli_button36);
+            this.tabPage2.Controls.Add(this.hizli_button34);
+            this.tabPage2.Controls.Add(this.hizli_button32);
+            this.tabPage2.Controls.Add(this.hizli_button28);
+            this.tabPage2.Controls.Add(this.hizli_button24);
+            this.tabPage2.Controls.Add(this.hizli_button39);
+            this.tabPage2.Controls.Add(this.hizli_button37);
+            this.tabPage2.Controls.Add(this.hizli_button35);
+            this.tabPage2.Controls.Add(this.hizli_button33);
+            this.tabPage2.Controls.Add(this.hizli_button31);
+            this.tabPage2.Controls.Add(this.hizli_button27);
+            this.tabPage2.Controls.Add(this.hizli_button23);
+            this.tabPage2.Controls.Add(this.hizli_button30);
+            this.tabPage2.Controls.Add(this.hizli_button26);
+            this.tabPage2.Controls.Add(this.hizli_button22);
+            this.tabPage2.Controls.Add(this.hizli_button29);
+            this.tabPage2.Controls.Add(this.hizli_button25);
+            this.tabPage2.Controls.Add(this.hizli_button21);
             this.tabPage2.Location = new System.Drawing.Point(4, 33);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(380, 626);
@@ -686,6 +727,209 @@
             // 
             this.backgroundWorker1.WorkerReportsProgress = true;
             // 
+            // hizli_button40
+            // 
+            this.hizli_button40.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button40.Location = new System.Drawing.Point(192, 555);
+            this.hizli_button40.Name = "hizli_button40";
+            this.hizli_button40.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button40.TabIndex = 1;
+            this.hizli_button40.UseVisualStyleBackColor = true;
+            this.hizli_button40.Click += new System.EventHandler(this.Hizli_button40_Click);
+            // 
+            // hizli_button38
+            // 
+            this.hizli_button38.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button38.Location = new System.Drawing.Point(192, 494);
+            this.hizli_button38.Name = "hizli_button38";
+            this.hizli_button38.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button38.TabIndex = 18;
+            this.hizli_button38.UseVisualStyleBackColor = true;
+            this.hizli_button38.Click += new System.EventHandler(this.Hizli_button38_Click);
+            // 
+            // hizli_button36
+            // 
+            this.hizli_button36.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button36.Location = new System.Drawing.Point(192, 433);
+            this.hizli_button36.Name = "hizli_button36";
+            this.hizli_button36.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button36.TabIndex = 17;
+            this.hizli_button36.UseVisualStyleBackColor = true;
+            this.hizli_button36.Click += new System.EventHandler(this.Hizli_button36_Click);
+            // 
+            // hizli_button34
+            // 
+            this.hizli_button34.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button34.Location = new System.Drawing.Point(192, 372);
+            this.hizli_button34.Name = "hizli_button34";
+            this.hizli_button34.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button34.TabIndex = 16;
+            this.hizli_button34.UseVisualStyleBackColor = true;
+            this.hizli_button34.Click += new System.EventHandler(this.Hizli_button34_Click);
+            // 
+            // hizli_button32
+            // 
+            this.hizli_button32.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button32.Location = new System.Drawing.Point(192, 311);
+            this.hizli_button32.Name = "hizli_button32";
+            this.hizli_button32.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button32.TabIndex = 15;
+            this.hizli_button32.UseVisualStyleBackColor = true;
+            this.hizli_button32.Click += new System.EventHandler(this.Hizli_button32_Click);
+            // 
+            // hizli_button28
+            // 
+            this.hizli_button28.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button28.Location = new System.Drawing.Point(192, 189);
+            this.hizli_button28.Name = "hizli_button28";
+            this.hizli_button28.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button28.TabIndex = 14;
+            this.hizli_button28.UseVisualStyleBackColor = true;
+            this.hizli_button28.Click += new System.EventHandler(this.Hizli_button28_Click);
+            // 
+            // hizli_button24
+            // 
+            this.hizli_button24.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button24.Location = new System.Drawing.Point(192, 67);
+            this.hizli_button24.Name = "hizli_button24";
+            this.hizli_button24.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button24.TabIndex = 13;
+            this.hizli_button24.UseVisualStyleBackColor = true;
+            this.hizli_button24.Click += new System.EventHandler(this.Hizli_button24_Click);
+            // 
+            // hizli_button39
+            // 
+            this.hizli_button39.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button39.Location = new System.Drawing.Point(6, 555);
+            this.hizli_button39.Name = "hizli_button39";
+            this.hizli_button39.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button39.TabIndex = 12;
+            this.hizli_button39.UseVisualStyleBackColor = true;
+            this.hizli_button39.Click += new System.EventHandler(this.Hizli_button39_Click);
+            // 
+            // hizli_button37
+            // 
+            this.hizli_button37.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button37.Location = new System.Drawing.Point(6, 494);
+            this.hizli_button37.Name = "hizli_button37";
+            this.hizli_button37.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button37.TabIndex = 11;
+            this.hizli_button37.UseVisualStyleBackColor = true;
+            this.hizli_button37.Click += new System.EventHandler(this.Hizli_button37_Click);
+            // 
+            // hizli_button35
+            // 
+            this.hizli_button35.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button35.Location = new System.Drawing.Point(6, 433);
+            this.hizli_button35.Name = "hizli_button35";
+            this.hizli_button35.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button35.TabIndex = 10;
+            this.hizli_button35.UseVisualStyleBackColor = true;
+            this.hizli_button35.Click += new System.EventHandler(this.Hizli_button35_Click);
+            // 
+            // hizli_button33
+            // 
+            this.hizli_button33.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button33.Location = new System.Drawing.Point(6, 372);
+            this.hizli_button33.Name = "hizli_button33";
+            this.hizli_button33.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button33.TabIndex = 9;
+            this.hizli_button33.UseVisualStyleBackColor = true;
+            this.hizli_button33.Click += new System.EventHandler(this.Hizli_button33_Click);
+            // 
+            // hizli_button31
+            // 
+            this.hizli_button31.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button31.Location = new System.Drawing.Point(6, 311);
+            this.hizli_button31.Name = "hizli_button31";
+            this.hizli_button31.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button31.TabIndex = 8;
+            this.hizli_button31.UseVisualStyleBackColor = true;
+            this.hizli_button31.Click += new System.EventHandler(this.Hizli_button31_Click);
+            // 
+            // hizli_button27
+            // 
+            this.hizli_button27.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button27.Location = new System.Drawing.Point(6, 189);
+            this.hizli_button27.Name = "hizli_button27";
+            this.hizli_button27.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button27.TabIndex = 7;
+            this.hizli_button27.UseVisualStyleBackColor = true;
+            this.hizli_button27.Click += new System.EventHandler(this.Hizli_button27_Click);
+            // 
+            // hizli_button23
+            // 
+            this.hizli_button23.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button23.Location = new System.Drawing.Point(6, 67);
+            this.hizli_button23.Name = "hizli_button23";
+            this.hizli_button23.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button23.TabIndex = 6;
+            this.hizli_button23.UseVisualStyleBackColor = true;
+            this.hizli_button23.Click += new System.EventHandler(this.Hizli_button23_Click);
+            // 
+            // hizli_button30
+            // 
+            this.hizli_button30.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button30.Location = new System.Drawing.Point(192, 250);
+            this.hizli_button30.Name = "hizli_button30";
+            this.hizli_button30.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button30.TabIndex = 5;
+            this.hizli_button30.UseVisualStyleBackColor = true;
+            this.hizli_button30.Click += new System.EventHandler(this.Hizli_button30_Click);
+            // 
+            // hizli_button26
+            // 
+            this.hizli_button26.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button26.Location = new System.Drawing.Point(192, 128);
+            this.hizli_button26.Name = "hizli_button26";
+            this.hizli_button26.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button26.TabIndex = 4;
+            this.hizli_button26.UseVisualStyleBackColor = true;
+            this.hizli_button26.Click += new System.EventHandler(this.Hizli_button26_Click);
+            // 
+            // hizli_button22
+            // 
+            this.hizli_button22.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button22.Location = new System.Drawing.Point(192, 6);
+            this.hizli_button22.Name = "hizli_button22";
+            this.hizli_button22.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button22.TabIndex = 3;
+            this.hizli_button22.UseVisualStyleBackColor = true;
+            this.hizli_button22.Click += new System.EventHandler(this.Hizli_button22_Click);
+            // 
+            // hizli_button29
+            // 
+            this.hizli_button29.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button29.Location = new System.Drawing.Point(6, 250);
+            this.hizli_button29.Name = "hizli_button29";
+            this.hizli_button29.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button29.TabIndex = 2;
+            this.hizli_button29.Tag = "";
+            this.hizli_button29.UseVisualStyleBackColor = true;
+            this.hizli_button29.Click += new System.EventHandler(this.Hizli_button29_Click);
+            // 
+            // hizli_button25
+            // 
+            this.hizli_button25.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button25.Location = new System.Drawing.Point(6, 128);
+            this.hizli_button25.Name = "hizli_button25";
+            this.hizli_button25.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button25.TabIndex = 19;
+            this.hizli_button25.Tag = "";
+            this.hizli_button25.UseVisualStyleBackColor = true;
+            this.hizli_button25.Click += new System.EventHandler(this.Hizli_button25_Click);
+            // 
+            // hizli_button21
+            // 
+            this.hizli_button21.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hizli_button21.Location = new System.Drawing.Point(6, 6);
+            this.hizli_button21.Name = "hizli_button21";
+            this.hizli_button21.Size = new System.Drawing.Size(180, 55);
+            this.hizli_button21.TabIndex = 20;
+            this.hizli_button21.Tag = "";
+            this.hizli_button21.UseVisualStyleBackColor = true;
+            this.hizli_button21.Click += new System.EventHandler(this.Hizli_button21_Click);
+            // 
             // satis_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -720,6 +964,7 @@
             this.groupBox4.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -779,6 +1024,26 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button hizli_button20;
         private System.Windows.Forms.Button hizli_button19;
+        private System.Windows.Forms.Button hizli_button40;
+        private System.Windows.Forms.Button hizli_button38;
+        private System.Windows.Forms.Button hizli_button36;
+        private System.Windows.Forms.Button hizli_button34;
+        private System.Windows.Forms.Button hizli_button32;
+        private System.Windows.Forms.Button hizli_button28;
+        private System.Windows.Forms.Button hizli_button24;
+        private System.Windows.Forms.Button hizli_button39;
+        private System.Windows.Forms.Button hizli_button37;
+        private System.Windows.Forms.Button hizli_button35;
+        private System.Windows.Forms.Button hizli_button33;
+        private System.Windows.Forms.Button hizli_button31;
+        private System.Windows.Forms.Button hizli_button27;
+        private System.Windows.Forms.Button hizli_button23;
+        private System.Windows.Forms.Button hizli_button30;
+        private System.Windows.Forms.Button hizli_button26;
+        private System.Windows.Forms.Button hizli_button22;
+        private System.Windows.Forms.Button hizli_button29;
+        private System.Windows.Forms.Button hizli_button25;
+        private System.Windows.Forms.Button hizli_button21;
     }
 }
 
