@@ -71,31 +71,31 @@ namespace AHSS
             {
                 e.Handled = true;
             }
-            if (e.KeyCode == Keys.Enter)// barkodun okunup entere basıldıktan sonra işlemlerin başladığı yer.
-            {
-                if (BarkodTextBox.Text != string.Empty)
-                {
-                    BarkodaBak(BarkodTextBox.Text);
-                    e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
-                }
-                else
-                {
-                    e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
-                    //NakitSatisButton.PerformClick();
-                    //NakitSatisYap();
-                    NAKİT_SATİS_FORM.toplamTutar = float.Parse(ToplamFiyatTextBox.Text);
-                    NAKİT_SATİS_FORM.urunler = satinAlinacakUrunler;
-                    NAKİT_SATİS_FORM.ShowDialog();
-                    if (NAKİT_SATİS_FORM.odemeAlindimi)// nakit satis formunda ödeme alındı ise 
-                    {
-                        // nakit satıs formunda ödeme alındı ise alanları temizliyorum.
-                        AlanlariTemizle();// alanları temizleyip barkodtextboxuna focus yapıyor.
-                        IslemNumarasiLabel.Text = IslemNumarasiniGetir().ToString();
-                    }
-                    BarkodTextBox.Focus();
-                }
-            }
-            else if (e.KeyCode == Keys.F1)
+            //if (e.KeyCode == Keys.Enter)// barkodun okunup entere basıldıktan sonra işlemlerin başladığı yer.
+            //{
+            //    if (BarkodTextBox.Text != string.Empty)
+            //    {
+            //        BarkodaBak(BarkodTextBox.Text);
+            //        e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
+            //    }
+            //    else
+            //    {
+            //        e.SuppressKeyPress = true;// klavyeden yada barkod okuyucudan enter e bastıktan sonra "bling" sesi gelmesin diye. tam olarak nasıl çalıştığını bilmiyorum.
+            //        //NakitSatisButton.PerformClick();
+            //        //NakitSatisYap();
+            //        NAKİT_SATİS_FORM.toplamTutar = float.Parse(ToplamFiyatTextBox.Text);
+            //        NAKİT_SATİS_FORM.urunler = satinAlinacakUrunler;
+            //        NAKİT_SATİS_FORM.ShowDialog();
+            //        if (NAKİT_SATİS_FORM.odemeAlindimi)// nakit satis formunda ödeme alındı ise 
+            //        {
+            //            // nakit satıs formunda ödeme alındı ise alanları temizliyorum.
+            //            AlanlariTemizle();// alanları temizleyip barkodtextboxuna focus yapıyor.
+            //            IslemNumarasiLabel.Text = IslemNumarasiniGetir().ToString();
+            //        }
+            //        BarkodTextBox.Focus();
+            //    }
+            //}
+            if (e.KeyCode == Keys.F1)
             {
                 NakitSatisButton.PerformClick();
             }
@@ -1203,7 +1203,5 @@ namespace AHSS
                 }
             }
         }
-
-        
     }
 }

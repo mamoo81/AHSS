@@ -78,15 +78,6 @@
             this.hizli_button5 = new System.Windows.Forms.Button();
             this.hizli_button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.GiderKaydetButton = new System.Windows.Forms.Button();
-            this.SatisIptalButton = new System.Windows.Forms.Button();
-            this.SatirDuzeltButton = new System.Windows.Forms.Button();
-            this.StirSilButton = new System.Windows.Forms.Button();
-            this.PosSatisButton = new System.Windows.Forms.Button();
-            this.NakitSatisButton = new System.Windows.Forms.Button();
-            this.ToplamFiyatTextBox = new System.Windows.Forms.TextBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.hizli_button40 = new System.Windows.Forms.Button();
             this.hizli_button38 = new System.Windows.Forms.Button();
             this.hizli_button36 = new System.Windows.Forms.Button();
@@ -107,6 +98,15 @@
             this.hizli_button29 = new System.Windows.Forms.Button();
             this.hizli_button25 = new System.Windows.Forms.Button();
             this.hizli_button21 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.GiderKaydetButton = new System.Windows.Forms.Button();
+            this.SatisIptalButton = new System.Windows.Forms.Button();
+            this.SatirDuzeltButton = new System.Windows.Forms.Button();
+            this.StirSilButton = new System.Windows.Forms.Button();
+            this.PosSatisButton = new System.Windows.Forms.Button();
+            this.NakitSatisButton = new System.Windows.Forms.Button();
+            this.ToplamFiyatTextBox = new System.Windows.Forms.TextBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UrunlerDataGridView)).BeginInit();
@@ -629,104 +629,6 @@
             this.tabPage2.Text = "Barkodsuz ürünler";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.GiderKaydetButton);
-            this.groupBox5.Controls.Add(this.SatisIptalButton);
-            this.groupBox5.Controls.Add(this.SatirDuzeltButton);
-            this.groupBox5.Controls.Add(this.StirSilButton);
-            this.groupBox5.Controls.Add(this.PosSatisButton);
-            this.groupBox5.Controls.Add(this.NakitSatisButton);
-            this.groupBox5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox5.Location = new System.Drawing.Point(612, 179);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(336, 303);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Satış İşlemi";
-            // 
-            // GiderKaydetButton
-            // 
-            this.GiderKaydetButton.Location = new System.Drawing.Point(172, 231);
-            this.GiderKaydetButton.Name = "GiderKaydetButton";
-            this.GiderKaydetButton.Size = new System.Drawing.Size(158, 62);
-            this.GiderKaydetButton.TabIndex = 1;
-            this.GiderKaydetButton.Text = "GİDER KAYDET (F6)";
-            this.GiderKaydetButton.UseVisualStyleBackColor = true;
-            this.GiderKaydetButton.Click += new System.EventHandler(this.GiderKaydetButton_Click);
-            // 
-            // SatisIptalButton
-            // 
-            this.SatisIptalButton.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SatisIptalButton.Location = new System.Drawing.Point(6, 231);
-            this.SatisIptalButton.Name = "SatisIptalButton";
-            this.SatisIptalButton.Size = new System.Drawing.Size(158, 62);
-            this.SatisIptalButton.TabIndex = 0;
-            this.SatisIptalButton.Text = "İPTAL  ( F5 )";
-            this.SatisIptalButton.UseVisualStyleBackColor = true;
-            this.SatisIptalButton.Click += new System.EventHandler(this.SatisIptalButton_Click);
-            // 
-            // SatirDuzeltButton
-            // 
-            this.SatirDuzeltButton.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SatirDuzeltButton.Location = new System.Drawing.Point(172, 163);
-            this.SatirDuzeltButton.Name = "SatirDuzeltButton";
-            this.SatirDuzeltButton.Size = new System.Drawing.Size(158, 62);
-            this.SatirDuzeltButton.TabIndex = 0;
-            this.SatirDuzeltButton.Text = "SATIR DÜZELT  ( F4 )";
-            this.SatirDuzeltButton.UseVisualStyleBackColor = true;
-            this.SatirDuzeltButton.Click += new System.EventHandler(this.SatirDuzeltButton_Click);
-            // 
-            // StirSilButton
-            // 
-            this.StirSilButton.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.StirSilButton.Location = new System.Drawing.Point(6, 163);
-            this.StirSilButton.Name = "StirSilButton";
-            this.StirSilButton.Size = new System.Drawing.Size(158, 62);
-            this.StirSilButton.TabIndex = 0;
-            this.StirSilButton.Text = "SATIR SİL  ( F3 )";
-            this.StirSilButton.UseVisualStyleBackColor = true;
-            this.StirSilButton.Click += new System.EventHandler(this.StirSilButton_Click);
-            // 
-            // PosSatisButton
-            // 
-            this.PosSatisButton.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.PosSatisButton.Location = new System.Drawing.Point(6, 95);
-            this.PosSatisButton.Name = "PosSatisButton";
-            this.PosSatisButton.Size = new System.Drawing.Size(324, 62);
-            this.PosSatisButton.TabIndex = 0;
-            this.PosSatisButton.Text = "POS SATIŞ  ( F2 )";
-            this.PosSatisButton.UseVisualStyleBackColor = true;
-            this.PosSatisButton.Click += new System.EventHandler(this.PosSatisButton_Click);
-            // 
-            // NakitSatisButton
-            // 
-            this.NakitSatisButton.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.NakitSatisButton.Location = new System.Drawing.Point(6, 27);
-            this.NakitSatisButton.Name = "NakitSatisButton";
-            this.NakitSatisButton.Size = new System.Drawing.Size(324, 62);
-            this.NakitSatisButton.TabIndex = 0;
-            this.NakitSatisButton.Text = "NAKİT SATIŞ  ( F1 )";
-            this.NakitSatisButton.UseVisualStyleBackColor = true;
-            this.NakitSatisButton.Click += new System.EventHandler(this.NakitSatisButton_Click);
-            // 
-            // ToplamFiyatTextBox
-            // 
-            this.ToplamFiyatTextBox.BackColor = System.Drawing.SystemColors.WindowText;
-            this.ToplamFiyatTextBox.Font = new System.Drawing.Font("Calibri", 88.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ToplamFiyatTextBox.ForeColor = System.Drawing.Color.Lime;
-            this.ToplamFiyatTextBox.Location = new System.Drawing.Point(552, 19);
-            this.ToplamFiyatTextBox.Multiline = true;
-            this.ToplamFiyatTextBox.Name = "ToplamFiyatTextBox";
-            this.ToplamFiyatTextBox.Size = new System.Drawing.Size(396, 154);
-            this.ToplamFiyatTextBox.TabIndex = 5;
-            this.ToplamFiyatTextBox.Text = "0000,00";
-            this.ToplamFiyatTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // backgroundWorker1
-            // 
-            this.backgroundWorker1.WorkerReportsProgress = true;
-            // 
             // hizli_button40
             // 
             this.hizli_button40.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -929,6 +831,104 @@
             this.hizli_button21.Tag = "";
             this.hizli_button21.UseVisualStyleBackColor = true;
             this.hizli_button21.Click += new System.EventHandler(this.Hizli_button21_Click);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.GiderKaydetButton);
+            this.groupBox5.Controls.Add(this.SatisIptalButton);
+            this.groupBox5.Controls.Add(this.SatirDuzeltButton);
+            this.groupBox5.Controls.Add(this.StirSilButton);
+            this.groupBox5.Controls.Add(this.PosSatisButton);
+            this.groupBox5.Controls.Add(this.NakitSatisButton);
+            this.groupBox5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox5.Location = new System.Drawing.Point(612, 179);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(336, 303);
+            this.groupBox5.TabIndex = 4;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Satış İşlemi";
+            // 
+            // GiderKaydetButton
+            // 
+            this.GiderKaydetButton.Location = new System.Drawing.Point(172, 231);
+            this.GiderKaydetButton.Name = "GiderKaydetButton";
+            this.GiderKaydetButton.Size = new System.Drawing.Size(158, 62);
+            this.GiderKaydetButton.TabIndex = 1;
+            this.GiderKaydetButton.Text = "GİDER KAYDET (F6)";
+            this.GiderKaydetButton.UseVisualStyleBackColor = true;
+            this.GiderKaydetButton.Click += new System.EventHandler(this.GiderKaydetButton_Click);
+            // 
+            // SatisIptalButton
+            // 
+            this.SatisIptalButton.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.SatisIptalButton.Location = new System.Drawing.Point(6, 231);
+            this.SatisIptalButton.Name = "SatisIptalButton";
+            this.SatisIptalButton.Size = new System.Drawing.Size(158, 62);
+            this.SatisIptalButton.TabIndex = 0;
+            this.SatisIptalButton.Text = "İPTAL  ( F5 )";
+            this.SatisIptalButton.UseVisualStyleBackColor = true;
+            this.SatisIptalButton.Click += new System.EventHandler(this.SatisIptalButton_Click);
+            // 
+            // SatirDuzeltButton
+            // 
+            this.SatirDuzeltButton.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.SatirDuzeltButton.Location = new System.Drawing.Point(172, 163);
+            this.SatirDuzeltButton.Name = "SatirDuzeltButton";
+            this.SatirDuzeltButton.Size = new System.Drawing.Size(158, 62);
+            this.SatirDuzeltButton.TabIndex = 0;
+            this.SatirDuzeltButton.Text = "SATIR DÜZELT  ( F4 )";
+            this.SatirDuzeltButton.UseVisualStyleBackColor = true;
+            this.SatirDuzeltButton.Click += new System.EventHandler(this.SatirDuzeltButton_Click);
+            // 
+            // StirSilButton
+            // 
+            this.StirSilButton.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.StirSilButton.Location = new System.Drawing.Point(6, 163);
+            this.StirSilButton.Name = "StirSilButton";
+            this.StirSilButton.Size = new System.Drawing.Size(158, 62);
+            this.StirSilButton.TabIndex = 0;
+            this.StirSilButton.Text = "SATIR SİL  ( F3 )";
+            this.StirSilButton.UseVisualStyleBackColor = true;
+            this.StirSilButton.Click += new System.EventHandler(this.StirSilButton_Click);
+            // 
+            // PosSatisButton
+            // 
+            this.PosSatisButton.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.PosSatisButton.Location = new System.Drawing.Point(6, 95);
+            this.PosSatisButton.Name = "PosSatisButton";
+            this.PosSatisButton.Size = new System.Drawing.Size(324, 62);
+            this.PosSatisButton.TabIndex = 0;
+            this.PosSatisButton.Text = "POS SATIŞ  ( F2 )";
+            this.PosSatisButton.UseVisualStyleBackColor = true;
+            this.PosSatisButton.Click += new System.EventHandler(this.PosSatisButton_Click);
+            // 
+            // NakitSatisButton
+            // 
+            this.NakitSatisButton.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.NakitSatisButton.Location = new System.Drawing.Point(6, 27);
+            this.NakitSatisButton.Name = "NakitSatisButton";
+            this.NakitSatisButton.Size = new System.Drawing.Size(324, 62);
+            this.NakitSatisButton.TabIndex = 0;
+            this.NakitSatisButton.Text = "NAKİT SATIŞ  ( F1 )";
+            this.NakitSatisButton.UseVisualStyleBackColor = true;
+            this.NakitSatisButton.Click += new System.EventHandler(this.NakitSatisButton_Click);
+            // 
+            // ToplamFiyatTextBox
+            // 
+            this.ToplamFiyatTextBox.BackColor = System.Drawing.SystemColors.WindowText;
+            this.ToplamFiyatTextBox.Font = new System.Drawing.Font("Calibri", 88.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ToplamFiyatTextBox.ForeColor = System.Drawing.Color.Lime;
+            this.ToplamFiyatTextBox.Location = new System.Drawing.Point(552, 19);
+            this.ToplamFiyatTextBox.Multiline = true;
+            this.ToplamFiyatTextBox.Name = "ToplamFiyatTextBox";
+            this.ToplamFiyatTextBox.Size = new System.Drawing.Size(396, 154);
+            this.ToplamFiyatTextBox.TabIndex = 5;
+            this.ToplamFiyatTextBox.Text = "0000,00";
+            this.ToplamFiyatTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
             // 
             // satis_form
             // 
