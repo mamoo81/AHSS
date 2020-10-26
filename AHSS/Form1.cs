@@ -784,321 +784,481 @@ namespace AHSS
 
         private void Hizli_button1_Click(object sender, EventArgs e)
         {
-            if (hizli_button1.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button1.Tag))
             {
                 BarkodaBak((string)hizli_button1.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button2_Click(object sender, EventArgs e)
         {
-            if (hizli_button2.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button2.Tag))
             {
                 BarkodaBak((string)hizli_button2.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button3_Click(object sender, EventArgs e)
         {
-            if (hizli_button3.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button3.Tag))
             {
                 BarkodaBak((string)hizli_button3.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button4_Click(object sender, EventArgs e)
         {
-            if (hizli_button4.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button4.Tag))
             {
                 BarkodaBak((string)hizli_button4.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button5_Click(object sender, EventArgs e)
         {
-            if (hizli_button5.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button5.Tag))
             {
                 BarkodaBak((string)hizli_button5.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button6_Click(object sender, EventArgs e)
         {
-            if (hizli_button6.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button6.Tag))
             {
                 BarkodaBak((string)hizli_button6.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button7_Click(object sender, EventArgs e)
         {
-            if (hizli_button7.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button7.Tag))
             {
                 BarkodaBak((string)hizli_button7.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button8_Click(object sender, EventArgs e)
         {
-            if (hizli_button8.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button8.Tag))
             {
                 BarkodaBak((string)hizli_button8.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button9_Click(object sender, EventArgs e)
         {
-            if (hizli_button9.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button9.Tag))
             {
                 BarkodaBak((string)hizli_button9.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button10_Click(object sender, EventArgs e)
         {
-            if (hizli_button10.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button10.Tag))
             {
                 BarkodaBak((string)hizli_button10.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button11_Click(object sender, EventArgs e)
         {
-            if (hizli_button11.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button11.Tag))
             {
                 BarkodaBak((string)hizli_button11.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button12_Click(object sender, EventArgs e)
         {
-            if (hizli_button12.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button12.Tag))
             {
                 BarkodaBak((string)hizli_button12.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button13_Click(object sender, EventArgs e)
         {
-            if (hizli_button13.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button13.Tag))
             {
                 BarkodaBak((string)hizli_button13.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button14_Click(object sender, EventArgs e)
         {
-            if (hizli_button14.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button14.Tag))
             {
                 BarkodaBak((string)hizli_button14.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button15_Click(object sender, EventArgs e)
         {
-            if (hizli_button15.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button15.Tag))
             {
                 BarkodaBak((string)hizli_button15.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button16_Click(object sender, EventArgs e)
         {
-            if (hizli_button16.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button16.Tag))
             {
                 BarkodaBak((string)hizli_button16.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button17_Click(object sender, EventArgs e)
         {
-            if (hizli_button17.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button17.Tag))
             {
                 BarkodaBak((string)hizli_button17.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button18_Click(object sender, EventArgs e)
         {
-            if (hizli_button18.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button18.Tag))
             {
                 BarkodaBak((string)hizli_button18.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button19_Click(object sender, EventArgs e)
         {
-            if (hizli_button19.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button19.Tag))
             {
                 BarkodaBak((string)hizli_button19.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button20_Click(object sender, EventArgs e)
         {
-            if (hizli_button20.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button20.Tag))
             {
                 BarkodaBak((string)hizli_button20.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button21_Click(object sender, EventArgs e)
         {
-            if (hizli_button21.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button21.Tag))
             {
                 BarkodaBak((string)hizli_button21.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button22_Click(object sender, EventArgs e)
         {
-            if (hizli_button22.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button22.Tag))
             {
                 BarkodaBak((string)hizli_button22.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button23_Click(object sender, EventArgs e)
         {
-            if (hizli_button23.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button23.Tag))
             {
                 BarkodaBak((string)hizli_button23.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button24_Click(object sender, EventArgs e)
         {
-            if (hizli_button24.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button24.Tag))
             {
                 BarkodaBak((string)hizli_button24.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button25_Click(object sender, EventArgs e)
         {
-            if (hizli_button25.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button25.Tag))
             {
                 BarkodaBak((string)hizli_button25.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button26_Click(object sender, EventArgs e)
         {
-            if (hizli_button26.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button26.Tag))
             {
                 BarkodaBak((string)hizli_button26.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button27_Click(object sender, EventArgs e)
         {
-            if (hizli_button27.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button27.Tag))
             {
                 BarkodaBak((string)hizli_button27.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button28_Click(object sender, EventArgs e)
         {
-            if (hizli_button28.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button28.Tag))
             {
                 BarkodaBak((string)hizli_button28.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button29_Click(object sender, EventArgs e)
         {
-            if (hizli_button29.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button29.Tag))
             {
                 BarkodaBak((string)hizli_button29.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button30_Click(object sender, EventArgs e)
         {
-            if (hizli_button30.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button30.Tag))
             {
                 BarkodaBak((string)hizli_button30.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button31_Click(object sender, EventArgs e)
         {
-            if (hizli_button31.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button31.Tag))
             {
                 BarkodaBak((string)hizli_button31.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button32_Click(object sender, EventArgs e)
         {
-            if (hizli_button32.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button32.Tag))
             {
                 BarkodaBak((string)hizli_button32.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button33_Click(object sender, EventArgs e)
         {
-            if (hizli_button33.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button33.Tag))
             {
                 BarkodaBak((string)hizli_button33.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button34_Click(object sender, EventArgs e)
         {
-            if (hizli_button34.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button34.Tag))
             {
                 BarkodaBak((string)hizli_button34.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button35_Click(object sender, EventArgs e)
         {
-            if (hizli_button35.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button35.Tag))
             {
                 BarkodaBak((string)hizli_button35.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button36_Click(object sender, EventArgs e)
         {
-            if (hizli_button36.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button36.Tag))
             {
                 BarkodaBak((string)hizli_button36.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button37_Click(object sender, EventArgs e)
         {
-            if (hizli_button37.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button37.Tag))
             {
                 BarkodaBak((string)hizli_button37.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button38_Click(object sender, EventArgs e)
         {
-            if (hizli_button38.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button38.Tag))
             {
                 BarkodaBak((string)hizli_button38.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button39_Click(object sender, EventArgs e)
         {
-            if (hizli_button39.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button39.Tag))
             {
                 BarkodaBak((string)hizli_button39.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
         private void Hizli_button40_Click(object sender, EventArgs e)
         {
-            if (hizli_button40.Tag.ToString() != string.Empty)
+            if (!string.IsNullOrEmpty((string)hizli_button40.Tag))
             {
                 BarkodaBak((string)hizli_button40.Tag);
+            }
+            else
+            {
+                this.BarkodTextBox.Focus();
             }
         }
 
@@ -1202,6 +1362,12 @@ namespace AHSS
                     UrunlerDataGridView.Rows[NewIndex].Selected = true;
                 }
             }
+        }
+
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.BarkodTextBox.Focus();
         }
     }
 }
